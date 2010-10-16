@@ -26,6 +26,15 @@ public class UCdroid extends Activity {
 
             }
         });
-
+        
+        Button buttonTabs = (Button) findViewById(R.id.btn_tabs);
+        buttonTabs.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View v) {
+                Intent tabs = new Intent(getApplicationContext(), Tabs.class);
+                startActivity(tabs);
+            }
+        });
     }
 }

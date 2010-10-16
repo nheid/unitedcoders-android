@@ -15,4 +15,10 @@
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     />
+<Button
+    android:id="@+id/btn_tabs"
+    android:text="start tab example"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
 </LinearLayout>
