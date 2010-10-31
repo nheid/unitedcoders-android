@@ -26,9 +26,12 @@ public class Tabs extends TabActivity implements OnClickListener {
         flipper = (ViewFlipper) findViewById(R.id.layout_tab_one);
         flipper.setOnClickListener(this);
 
+        String tabname1 = getString(R.string.tabexample_tab1);
+        String tabname2 = getString(R.string.tabexample_tab2);
+        
         tabHost = getTabHost();
-        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("Tab1").setContent(R.id.layout_tab_one));
-        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("Tab2").setContent(R.id.layout_tab_two));
+        tabHost.addTab(tabHost.newTabSpec("tab1").setContent(R.id.layout_tab_one).setIndicator(tabname1));
+        tabHost.addTab(tabHost.newTabSpec("tab2").setContent(R.id.layout_tab_two).setIndicator(tabname2));
 
         tabHost.setCurrentTab(0);
 

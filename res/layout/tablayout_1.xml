@@ -15,19 +15,19 @@
 				android:layout_width="fill_parent" android:layout_height="fill_parent">
 
 				<TextView android:id="@+id/tabone1" android:layout_width="fill_parent"
-					android:layout_height="fill_parent" android:text="this is a tab one" />
+					android:layout_height="fill_parent" android:text="@+string/tab1_content1" />
 				<TextView android:id="@+id/tabone2" android:layout_width="fill_parent"
-					android:layout_height="fill_parent" android:text="this is the other tab one" />
+					android:layout_height="fill_parent" android:text="@+string/tab1_content2" />
 
 			</ViewFlipper>
 
 
 
-			<LinearLayout android:id="@+id/layout_tab_two"
+			<LinearLayout android:id="@+id/layout_tab_two" 
 				android:orientation="vertical" android:layout_width="fill_parent"
 				android:layout_height="fill_parent">
 				<TextView android:id="@+id/textview2" android:layout_width="fill_parent"
-					android:layout_height="wrap_content" android:text="this is a tab two" />
+					android:layout_height="wrap_content" android:text="@+string/tab2_content1" />
 				<Button android:id="@+id/btn_do_something" android:text="do something"
 					android:layout_width="fill_parent" android:layout_height="wrap_content" />
 

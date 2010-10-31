@@ -2,4 +2,18 @@
 <resources>
     <string name="hello">Hello World, UCdroid!</string>
     <string name="app_name">UCdroid</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start_tab_example">start tab example</string>
+    <string name="btn_do_something">do something</string>
+    
+    <!-- Tab names -->
+    <string name="tabexample_tab1">Tab1</string>
+    <string name="tabexample_tab2">Tab2</string>
+    
+    <!-- Strings -->
+    <string name="tab1_content1">this is a tab one</string>
+    <string name="tab1_content2">this is the other tab one</string>
+    <string name="tab2_content1">this is a tab two</string>
+    
 </resources>

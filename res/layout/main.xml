@@ -17,7 +17,7 @@
     />
 <Button
     android:id="@+id/btn_tabs"
-    android:text="start tab example"  
+    android:text="@+string/btn_start_tab_example"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     />
