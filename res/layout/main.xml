@@ -21,4 +21,12 @@
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     />
+<Button
+    android:id="@+id/btn_camera"
+    android:text="start tab with cam"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:onClick="startTabsWithActivities" 
+    />
+        
 </LinearLayout>
